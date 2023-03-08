@@ -14,3 +14,5 @@ FreeFem++ Heat.edp
 ここでは領域の設定にはsquareコマンドを使っているのですが、領域の境界のラベルは以下のようになってます。
 
 <img width="592" alt="boundary-label-heat" src="https://user-images.githubusercontent.com/1296728/223726838-1246afd8-79f7-4f5e-9b6c-85e77c261b14.png">
+
+![heat_arch](https://user-images.githubusercontent.com/1296728/223750511-4a4a1e41-5ce8-4e51-8c23-935aea77cdf6.jpg)
