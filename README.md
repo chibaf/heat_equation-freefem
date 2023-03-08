@@ -39,6 +39,6 @@ The variational formulation is in $𝐿^2(0,𝑇;𝐻^1(Ω))$; in loose terms an
 
 時間について離散化すると：
 
-$\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n \nabla w\right)+\int_\Gamma \alpha(u^n-u_e)w=0$
+$\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n \cdot \nabla w\right)+\int_\Gamma \alpha(u^n-u_e)w=0$
 
 これは時間について陰的な解法で、毎回方程式を解くことになりますが、数値的に安定した計算ができます。
