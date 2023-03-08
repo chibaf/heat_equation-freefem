@@ -21,4 +21,4 @@ FreeFem++ Heat.edp
 
 扱う問題を書きます。
 
-$\partial_t u -\nabla\cdot(\kappa\nabla u)=0 \quad {\in} \Omega\times(0,T)$
+$\partial_t u -\nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
