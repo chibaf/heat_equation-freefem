@@ -22,3 +22,7 @@ FreeFem++ Heat.edp
 扱う問題を書きます。
 
 $\partial_t u -\nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
+
+$u(x,y,0)=u_0+x u_1$
+
+$\kappa \frac{\partialu}{\partial n}+\alpha(u-u_e)=0 \quad {\rm om} \Gamma\times(0,T)$
