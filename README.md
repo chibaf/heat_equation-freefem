@@ -27,10 +27,15 @@ $u(x,y,0)=u_0+x u_1$
 
 $\kappa \frac{\partial u}{\partial n}+\alpha(u-u_e)=0 \quad {\rm om} \Gamma\times(0,T)$
 
+FreeFEM-documentation.pdfからの引用：
+
 Here the diffusion 𝜅 will take two values, one below the middle horizontal line and ten times less above, so as to simulate a thermostat.
 
 The term $𝛼(𝑢 − 𝑢_𝑒)$ accounts for the loss of temperature by convection in air. Mathematically this boundary condition is of Fourier (or Robin, or mixed) type.
 
 The variational formulation is in $𝐿^2(0,𝑇;𝐻^1(Ω))$; in loose terms and after applying an implicit Euler finite difference approximation in time; we shall seek $𝑢_𝑛(𝑥, 𝑦)$ satisfying for all $𝑤 ∈ 𝐻^1(Ω)$:
 
+ここで $H^1(\Omega)$ は１階微分可能なソボレフ空間です。
+
 $\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n \nabla w\right)+\int_\Gamma \alpha(u^n-u_e)w=0$
+
