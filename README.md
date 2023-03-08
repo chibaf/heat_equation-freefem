@@ -17,7 +17,7 @@ FreeFem++ Heat.edp
 
 ここではポアソン問題で使った領域を使うことにします。: 
 
-![heat_arch](https://user-images.githubusercontent.com/1296728/223750511-4a4a1e41-5ce8-4e51-8c23-935aea77cdf6.jpg)
+![heat_arch](https://user-images.githubusercontent.com/1296728/223824948-6d1a18b3-7f84-4016-a003-5972d099b1ea.jpg)
 
 扱う問題を書きます。
 
