@@ -26,3 +26,9 @@ $\partial_t u -\nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
 $u(x,y,0)=u_0+x u_1$
 
 $\kappa \frac{\partial u}{\partial n}+\alpha(u-u_e)=0 \quad {\rm om} \Gamma\times(0,T)$
+
+Here the diffusion 𝜅 will take two values, one below the middle horizontal line and ten times less above, so as to simulate a thermostat.
+
+The term 𝛼(𝑢 − 𝑢𝑒) accounts for the loss of temperature by convection in air. Mathematically this boundary condition is of Fourier (or Robin, or mixed) type.
+
+The variational formulation is in 𝐿2(0,𝑇;𝐻1(Ω)); in loose terms and after applying an implicit Euler finite difference approximation in time; we shall seek 𝑢𝑛(𝑥, 𝑦) satisfying for all 𝑤 ∈ 𝐻1(Ω):
