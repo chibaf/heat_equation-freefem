@@ -1,6 +1,8 @@
 # heat_equation-freefem
 heat equation - solving initial condition problems by freefem
 
+FreeFemは境界値問題を解くのが基本です。初期値問題を解くには時間方向を差分で近似します。時間方向にはループコマンドを使います。
+
 Heat.edp: original program
 
 FreeFem++ Heat.edp
