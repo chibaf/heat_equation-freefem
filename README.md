@@ -41,7 +41,7 @@ The variational formulation is in $𝐿^2(0,𝑇;𝐻^1(Ω))$; in loose terms an
 
 弱形式にすると
 
-$\int_\Omega \partial_t u -\int_\Omega \nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
+$\displaystyle\int_\Omega \partial_t u -\displaystyle\int_\Omega \nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
 
 
 部分積分をすると
