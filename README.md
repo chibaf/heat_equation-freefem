@@ -43,10 +43,9 @@ The variational formulation is in $𝐿^2(0,𝑇;𝐻^1(Ω))$; in loose terms an
 
 $\displaystyle\int_\Omega \partial_t u w -\displaystyle\int_\Omega \nabla\cdot(\kappa\nabla u) w=0 \quad {\rm in} \Omega\times(0,T)$
 
-
 部分積分をすると
 
-
+$\displaystyle\int_\Omega \partial_t u w -\displaystyle\int_\Omega \kappa\frac{\partial}{\partial n} u) w+-\displaystyle\int_\Omega \kappa\nabla u\cdot\nabla w=0 \quad {\rm in} \Omega\times(0,T)$
 
 時間について離散化すると：
 
