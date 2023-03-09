@@ -15,10 +15,6 @@ FreeFem++ Heat.edp
 
 <img width="592" alt="boundary-label-heat" src="https://user-images.githubusercontent.com/1296728/223726838-1246afd8-79f7-4f5e-9b6c-85e77c261b14.png">
 
-ここではポアソン問題で使った領域を使うことにします。: 
-
-![heat_arch](https://user-images.githubusercontent.com/1296728/223824948-6d1a18b3-7f84-4016-a003-5972d099b1ea.jpg)
-
 扱う問題を書きます。
 
 $\partial_t u -\nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
