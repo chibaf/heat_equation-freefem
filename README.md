@@ -34,6 +34,7 @@ The term $𝛼(𝑢 − 𝑢_𝑒)$ accounts for the loss of temperature by conv
 The variational formulation is in $𝐿^2(0,𝑇;𝐻^1(Ω))$; in loose terms and after applying an implicit Euler finite difference approximation in time; we shall seek $𝑢_𝑛(𝑥, 𝑦)$ satisfying for all $𝑤 ∈ 𝐻^1(Ω)$:
 
 ここで $H^1(\Omega)$ は１階微分可能なソボレフ空間です。
+$𝐿^2(0,𝑇;𝐻^1(Ω))$ は $t\in[0,T]$ に $u\in H^1(\Omega)$ を対応させる写像の空間です。
 
 弱形式にすると
 
