@@ -45,9 +45,9 @@ $\displaystyle\int_\Omega \partial_t u w -\displaystyle\int_\Omega \nabla\cdot(\
 
 部分積分をすると
 
-$\displaystyle\int_\Omega \partial_t u w -\displaystyle\int_{\partial\Omega} \alpha(u-u_e) w+\displaystyle\int_\Omega \kappa\nabla u\cdot\nabla w=0 \quad {\rm in} \Omega\times(0,T)$
-
 $\displaystyle\int_\Omega \partial_t u w -\displaystyle\int_{\partial\Omega} \kappa\frac{\partial}{\partial n} u w+\displaystyle\int_\Omega \kappa\nabla u\cdot\nabla w=0 \quad {\rm in} \Omega\times(0,T)$
+
+$\displaystyle\int_\Omega \partial_t u w -\displaystyle\int_{\partial\Omega} \alpha(u-u_e) w+\displaystyle\int_\Omega \kappa\nabla u\cdot\nabla w=0 \quad {\rm in} \Omega\times(0,T)$
 
 時間について離散化すると：
 
