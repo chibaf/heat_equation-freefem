@@ -39,6 +39,15 @@ The variational formulation is in $𝐿^2(0,𝑇;𝐻^1(Ω))$; in loose terms an
 
 ここで $H^1(\Omega)$ は１階微分可能なソボレフ空間です。
 
+弱形式にすると
+
+$\int_\Omega \partial_t u -\int_\Omega \nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
+
+
+部分積分をすると
+
+
+
 時間について離散化すると：
 
 $\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n \cdot \nabla w\right)+\int_\Gamma \alpha(u^n-u_e)w=0$
