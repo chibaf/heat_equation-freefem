@@ -21,7 +21,7 @@ $\partial_t u -\nabla\cdot(\kappa\nabla u)=0 \quad {\rm in} \Omega\times(0,T)$
 
 $u(x,y,0)=u_0+x u_1$
 
-$\kappa \frac{\partial u}{\partial n}+\alpha(u-u_e)=0 \quad {\rm on \,} \Gamma\times(0,T)$
+$\kappa \frac{\partial u}{\partial n}+\alpha(u-u_e)=0 \quad {\rm on} \hspace{1pt} \Gamma\times(0,T)$
 
 $\kappa=1.8 \quad y<0.5, \quad 0.2 \quad y \ge 0.5$
 
