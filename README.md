@@ -25,6 +25,8 @@ $\kappa \frac{\partial u}{\partial n}+\alpha(u-u_e)=0 \quad {\rm on} \hspace{1pt
 
 $\kappa=1.8 \quad y<0.5, \quad 0.2 \quad y \ge 0.5$
 
+ここで $\kappa$ は定数ではなく関数です。
+
 FreeFEM-documentation.pdfからの引用：
 
 Here the diffusion 𝜅 will take two values, one below the middle horizontal line and ten times less above, so as to simulate a thermostat.
