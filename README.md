@@ -70,7 +70,7 @@ $\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n 
 
 square(150, 50, [3*x, y])の[3*x, y]はオプションで、これを入れないと正方形の領域になります。これを入れると、ｘ方向に３倍されます。150,50はそれぞれの方向の境界の分割数です。この命令を実行すると、図のようにメッシュが自動生成されます。(mesh-heat-freefem.edp)
 
-<img width="1121" alt="mesh-heat-freefem" src="https://user-images.githubusercontent.com/1296728/224756737-0644f101-ee10-4b4b-897e-24d78ea36968.png">
+![meash-heat-freefem](https://user-images.githubusercontent.com/1296728/224774459-537bc379-564a-4360-9f2e-f5f47bcfe989.png)
 
 このメッシュの上で有限要素空間（Vh）と有限要素関数を設定します。ここではP1要素＝区分一次関数を基底とする有限要素空間を考えます。　
 
