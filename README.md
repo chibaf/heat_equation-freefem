@@ -70,7 +70,7 @@ square(150, 50, [3*x, y])の[3*x, y]はオプションで、これを入れな�
 
 <img width="1121" alt="mesh-heat-freefem" src="https://user-images.githubusercontent.com/1296728/224756737-0644f101-ee10-4b4b-897e-24d78ea36968.png">
 
-このメッシュの上で有限要素空間と有限要素関数を設定します。ここではP1要素＝区分一次関数を基底とする有限要素空間を考えます。　
+このメッシュの上で有限要素空間（Vh）と有限要素関数を設定します。ここではP1要素＝区分一次関数を基底とする有限要素空間を考えます。　
 
 <img width="202" alt="finite-element-space-and-finite-element-functions" src="https://user-images.githubusercontent.com/1296728/224770356-4e45336d-959b-4b76-930a-9dff3a71000e.png">
 
