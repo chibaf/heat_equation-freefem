@@ -66,5 +66,6 @@ $\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n 
 
 この部分はメッシュの定義と有限要素空間の設定です。
 
+square(150, 50, [3*x, y])の[3*x, y]はオプションで、これを入れないと正方形の領域になります。これを入れると、ｘ方向に３倍されます。150,50はそれぞれの方向の境界の分割数です。この命令を実行すると、図のようにメッシュが自動生成されます。
 
 <img width="1121" alt="mesh-heat-freefem" src="https://user-images.githubusercontent.com/1296728/224756737-0644f101-ee10-4b4b-897e-24d78ea36968.png">
