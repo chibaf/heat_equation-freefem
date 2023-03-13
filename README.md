@@ -82,7 +82,7 @@ square(150, 50, [3*x, y])の[3*x, y]はオプションで、これを入れな�
 
 ここでinit=kk=0となっています。initは予約変数で、これを0（false）にすると、前の計算で得られた行列を使って再計算しないことになります。
 
-varf vA(u, v)
+problem Heat(u, v, init=kk)
 
   = int2d(Th)(
   
@@ -90,8 +90,20 @@ varf vA(u, v)
       
     + k*(dx(u)*dx(v) + dy(u)*dy(v))
     
-    )
-    
+  )
+
+が弱形式と差分近似で方程式の主要部分のfreefemによる表現です。
+
   + int1d(Th, 1, 3)(kf*v*u)
   
+  - int1d(Th, 1, 3)(kf*v*ue)
+  
+が境界での積分。
+
+  - int2d(Th)(uold*v/dt)
+
+が差分の残り。
+
   + on(2, 4, u=30);
+
+が境界条件です。
