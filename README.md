@@ -110,4 +110,4 @@ problem Heat(u, v, init=kk)
 
 <img width="300" alt="init-before-loop-heat" src="https://user-images.githubusercontent.com/1296728/224804790-32db7e5e-7f64-473b-b254-7f53ca47a1b7.png">
 
-問題を計算する前の設定です。１行目はcpu時間測定の設定です。３行目は解の初期値です。
+問題の計算を開始する前の設定です。１行目はcpu時間測定の設定です。３行目は解の初期値です。
