@@ -76,3 +76,6 @@ square(150, 50, [3*x, y])の[3*x, y]はオプションで、これを入れな�
 
 <img width="202" alt="finite-element-space-and-finite-element-functions" src="https://user-images.githubusercontent.com/1296728/224770356-4e45336d-959b-4b76-930a-9dff3a71000e.png">
 
+弱形式に直し時間を差分近似した方程式をfreefemで記述します
+
+<img width="339" alt="problem-Heat-equation" src="https://user-images.githubusercontent.com/1296728/224777732-fc09ae6b-ca46-4e2c-939c-a11b5a1ce122.png">
