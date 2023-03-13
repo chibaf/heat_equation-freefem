@@ -1,0 +1,4 @@
+// Mesh
+mesh Th = square(150, 50, [3*x, y]);
+
+plot(Th,ps="meash-heat-freefem.eps");
