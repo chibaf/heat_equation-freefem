@@ -52,9 +52,14 @@ $\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n 
 
 これは時間について陰的な解法で、毎回方程式を解くことになりますが、数値的に安定した計算ができます。
 
-# これを解くFreeFemコード、Heat.edpの説明をします
+# Heat.edpの説明
+
+この問題を解くためのFreeFemコードHeat.edpを説明します
+
+この部分はパラメータの設定です
 
 <img width="332" alt="Heat-edp-1" src="https://user-images.githubusercontent.com/1296728/224743390-3339f833-7463-46e4-9729-695edd33774c.png">
 
-
-この問題を解くためのFreeFemコードHeat.edpを説明します
+特に、func k = 1.8*(y < 0.5) + 0.2;は関数をあらわします。
+(y < 0.5)は"y
+関数を
