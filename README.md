@@ -81,3 +81,17 @@ square(150, 50, [3*x, y])の[3*x, y]はオプションで、これを入れな�
 <img width="339" alt="problem-Heat-equation" src="https://user-images.githubusercontent.com/1296728/224777732-fc09ae6b-ca46-4e2c-939c-a11b5a1ce122.png">
 
 ここでinit=kk=0となっています。initは予約変数で、これを0（false）にすると、前の計算で得られた行列を使って再計算しないことになります。
+
+varf vA(u, v)
+
+  = int2d(Th)(
+  
+      u*v/dt
+      
+    + k*(dx(u)*dx(v) + dy(u)*dy(v))
+    
+    )
+    
+  + int1d(Th, 1, 3)(kf*v*u)
+  
+  + on(2, 4, u=30);
