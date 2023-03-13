@@ -60,6 +60,4 @@ $\displaystyle\int_\Omega \left(\frac{u^n-u^{n-1}}{\delta t}w+\kappa \nabla u^n 
 
 <img width="332" alt="Heat-edp-1" src="https://user-images.githubusercontent.com/1296728/224743390-3339f833-7463-46e4-9729-695edd33774c.png">
 
-特に、func k = 1.8*(y < 0.5) + 0.2;は関数をあらわします。
-(y < 0.5)は"y
-関数を
+特に、func k = 1.8*(y < 0.5) + 0.2は関数をあらわします。(y<0.5)は命題関数で、y<0.5が真の時1で、偽のとき０です。
