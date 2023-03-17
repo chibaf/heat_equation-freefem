@@ -114,4 +114,4 @@ problem Heat(u, v, init=kk)
 
 <img width="355" alt="Basic_time_loop_heat" src="https://user-images.githubusercontent.com/1296728/225978587-63228918-4d76-47a1-b5c5-10987ea2403e.png">
 
-上は単純にFEMを計算しながら時間発展をケース
+上は単純にFEMを計算しながら時間発展をケース。freefemでは標準的なやり方。各回で行列計算が入る。
