@@ -111,3 +111,7 @@ problem Heat(u, v, init=kk)
 <img width="187" alt="init-before-loop-heat" src="https://user-images.githubusercontent.com/1296728/225978038-0587e6b9-f746-42fc-a3ce-53fc0687fe83.png">
 
 問題の計算を開始する前の設定です。１行目はcpu時間測定の設定です。３行目は解の初期値です。
+
+<img width="355" alt="Basic_time_loop_heat" src="https://user-images.githubusercontent.com/1296728/225978587-63228918-4d76-47a1-b5c5-10987ea2403e.png">
+
+上は単純にFEMを計算しながら時間発展をケース
