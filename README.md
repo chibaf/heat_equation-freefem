@@ -108,6 +108,6 @@ problem Heat(u, v, init=kk)
 
 が境界条件です。
 
-<img width="300" alt="init-before-loop-heat" src="https://user-images.githubusercontent.com/1296728/224804790-32db7e5e-7f64-473b-b254-7f53ca47a1b7.png">
+<img width="187" alt="init-before-loop-heat" src="https://user-images.githubusercontent.com/1296728/225978038-0587e6b9-f746-42fc-a3ce-53fc0687fe83.png">
 
 問題の計算を開始する前の設定です。１行目はcpu時間測定の設定です。３行目は解の初期値です。
