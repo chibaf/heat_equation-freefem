@@ -122,4 +122,6 @@ problem Heat(u, v, init=kk)
 
 <img width="887" alt="Optimized_code_Heat" src="https://user-images.githubusercontent.com/1296728/225980802-1f4f7847-3358-455f-a6e6-58b7bb9649b1.png">
 
+ここではあらかじめ、行列を計算して、連立方程式を各ステップで解きながら進めます。この各ステップが時間進行にあたります。
+
 ![Optimizeed_time_loop_Heat](https://user-images.githubusercontent.com/1296728/225981650-000ecac6-6d58-4731-80b4-1c1b7234162e.png)
