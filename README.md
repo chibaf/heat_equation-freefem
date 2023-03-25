@@ -118,7 +118,7 @@ problem Heat(u, v, init=kk)
 
 ![Basic_time_loop_Heat2](https://user-images.githubusercontent.com/1296728/225980206-281a9205-ece2-4dd0-837e-3e605e6fef5e.png)
 
-最適化されたコード。
+行列を生成してそれを使って時間発展を計算するコード
 
 <img width="887" alt="Optimized_code_Heat" src="https://user-images.githubusercontent.com/1296728/225980802-1f4f7847-3358-455f-a6e6-58b7bb9649b1.png">
 
